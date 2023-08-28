@@ -1,0 +1,32 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/xuexi01
+    username: root
+    password: 123456
+    #type: com.alibaba.druid.pool.DruidDataSource
+
+
+  mvc:
+    view:
+      prefix: /
+      suffix: .jsp
+    format:
+      date-time: yyyy-MM-dd HH:mm:ss
+server:
+  port: 8090
+  servlet:
+    context-path: /xuexi02
+
+
+
+
+
+
+
+
+
+
+
+
+
